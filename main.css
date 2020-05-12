@@ -1,4 +1,4 @@
-body,html{
+dy,html{
 
 	height: 100%;
 	width: 100%;	
@@ -16,15 +16,10 @@ body,html{
 .image2{
 
 	background-color: #191716;
-	height: 190%;
+	height: 200%;
 }
 
-.image3{
 
-	background-color: #e6af2e;
-	height: 100%;
-
-}
 
 .card-img-top {
     width: 100%;
@@ -43,6 +38,7 @@ h1{
 h3{
 	font-size: 3vw;
 	font-weight:lighter;
+  color:black;
 
 }
 
@@ -87,6 +83,18 @@ h2{
   vertical-align: middle;
 }
 
+.card{
+
+background-color: transparent;
+color: white;
+}
+
+.image3 {
+
+background-color: #e6af2e;
+
+}
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 1000px) {
@@ -110,12 +118,13 @@ h2{
 
   .image2{
 
-  	height: 180%;
+  	height: 250%;
   }
 
   .image3{
-  	height: 50%;
+  	height: 100%;
   }
+
 	
   .column {
     flex: 50%;
@@ -131,5 +140,9 @@ h2{
     h2{
     	font-size: 50px;
     }
+
+  h3{
+    font-size: 20px;
+  }  
 	
 }
