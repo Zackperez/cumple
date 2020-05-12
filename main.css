@@ -89,7 +89,7 @@ h2{
 
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
 
 	#footer{
 
