@@ -2,7 +2,7 @@ body,html{
 
 	height: 100%;
 	width: 100%;	
-		overflow-x: hidden;				
+	overflow-x: hidden;				
 
 }
 
@@ -102,9 +102,19 @@ h2{
 
 	}
 
+	.image1{
+		justify-content: center;
+		text-align: center ;
+		height: 90%;
+	}	
+
   .image2{
 
-  	height: 270%;
+  	height: 180%;
+  }
+
+  .image3{
+  	height: 50%;
   }
 	
   .column {
